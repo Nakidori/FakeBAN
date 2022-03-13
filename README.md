@@ -1,2 +1,8 @@
 # FakeBAN
-make a banned message but it's fake
+偽物のBAN画面を表示します
+## コマンド
+`/fakeban [プレイヤー名]`
+
+## 書式の編集
+formats.ymlを編集することでBAN画面の書式を変更できます。<br>
+{ }で囲うとコマンド使用時に中身を入力できるようになります。
