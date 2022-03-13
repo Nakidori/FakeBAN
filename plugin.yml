@@ -1,0 +1,15 @@
+name: FakeBAN
+main: nakidori\FakeBAN\Main
+api: 4.0.0
+version: 1.0.0
+
+commands:
+   fakeban:
+    description: "偽のBAN画面を表示する"
+    usage: "/fakeban"
+    permission: fakeban.command
+
+permissions:
+   fakeban.command:
+    description: "/fakebanコマンドの使用を許可"
+    default: true
