@@ -6,7 +6,7 @@ version: 1.0.0
 commands:
    fakeban:
     description: "偽のBAN画面を表示する"
-    usage: "/fakeban"
+    usage: "/fakeban [player:string]"
     permission: fakeban.command
 
 permissions:
